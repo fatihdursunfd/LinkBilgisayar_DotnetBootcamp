@@ -1,0 +1,15 @@
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\bin\Debug\net6.0\OpenClosedPrinciple.exe
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\bin\Debug\net6.0\OpenClosedPrinciple.deps.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\bin\Debug\net6.0\OpenClosedPrinciple.runtimeconfig.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\bin\Debug\net6.0\OpenClosedPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\bin\Debug\net6.0\OpenClosedPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.AssemblyInfo.cs
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\refint\OpenClosedPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\OpenClosedPrinciple.genruntimeconfig.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\OpenClosedPrinciple\obj\Debug\net6.0\ref\OpenClosedPrinciple.dll

@@ -1,0 +1,15 @@
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\bin\Debug\net6.0\InterfaceSegregationPrinciple.exe
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\bin\Debug\net6.0\InterfaceSegregationPrinciple.deps.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\bin\Debug\net6.0\InterfaceSegregationPrinciple.runtimeconfig.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\bin\Debug\net6.0\InterfaceSegregationPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\bin\Debug\net6.0\InterfaceSegregationPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.AssemblyInfo.cs
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\refint\InterfaceSegregationPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\InterfaceSegregationPrinciple.genruntimeconfig.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\InterfaceSegregationPrinciple\obj\Debug\net6.0\ref\InterfaceSegregationPrinciple.dll

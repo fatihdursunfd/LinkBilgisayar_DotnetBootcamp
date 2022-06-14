@@ -1,0 +1,15 @@
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.exe
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.deps.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.runtimeconfig.json
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.AssemblyInfo.cs
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\refint\LiskovSubstitutionPrinciple.dll
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.pdb
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.genruntimeconfig.cache
+C:\Users\fatih\source\repos\week-2-assigment-fatihdursunfd\LiskovSubstitutionPrinciple\obj\Debug\net6.0\ref\LiskovSubstitutionPrinciple.dll

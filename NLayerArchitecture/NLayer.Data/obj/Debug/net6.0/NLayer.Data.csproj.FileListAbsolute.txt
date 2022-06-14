@@ -1,0 +1,28 @@
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.runtimeconfig.json
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\refint\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.genruntimeconfig.cache
+C:\Users\fatih\OneDrive\Masaüstü\Movie App\NLayer\NLayer.Data\obj\Debug\net6.0\ref\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.runtimeconfig.json
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\bin\Debug\net6.0\NLayer.Data.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\refint\NLayer.Data.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\NLayer.Data.genruntimeconfig.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\NLayer\NLayer.Data\obj\Debug\net6.0\ref\NLayer.Data.dll
