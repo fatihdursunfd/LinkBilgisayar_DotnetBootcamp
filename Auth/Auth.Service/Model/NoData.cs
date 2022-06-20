@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auth.Data.Interfaces
+namespace Auth.Service.Model
 {
-    public interface IUnitOfWork
+    public class NoData
     {
-        Task CommmitAsync();
-        void Commit();
     }
 }

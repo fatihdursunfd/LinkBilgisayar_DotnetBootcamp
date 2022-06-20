@@ -1,4 +1,5 @@
-﻿using Auth.Data.Models;
+﻿using Auth.Data.Model;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,17 +10,12 @@ using System.Threading.Tasks;
 
 namespace Auth.Data
 {
-    public class AppDbContext : IdentityDbContext
+    public class AppDbContext : IdentityDbContext<IdentityUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<UserRefreshToken> UserRefreshToken { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Entity<RefreshToken>().HasKey(x => x.UserId);
-            base.OnModelCreating(builder);
-        }
     }
 }

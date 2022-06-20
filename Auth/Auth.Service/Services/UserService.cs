@@ -1,6 +1,9 @@
-﻿using Auth.Data.Interfaces;
+﻿using Auth.Data;
+using Auth.Data.Interfaces;
+using Auth.Data.Model;
 using Auth.Service.Dtos;
 using Auth.Service.Interfaces;
+using Auth.Service.Model;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -11,40 +14,111 @@ using System.Threading.Tasks;
 namespace Auth.Service.Services
 {
     public class UserService : IUserService
+
     {
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly IUnitOfWork unitOfWork;
-        public UserService(UserManager<IdentityUser> userManager, IUnitOfWork unitOfWork)
+
+        private readonly AppDbContext _context;
+
+        private readonly IGenericRepo<UserRefreshToken> _userRefreshTokenService;
+
+        private readonly IGenericRepo<IdentityUser> _userService;
+
+        private readonly IUnitOfWork _unitOfWork;
+
+        public UserService(UserManager<IdentityUser> userManager,
+                                     AppDbContext context,
+                                     IGenericRepo<UserRefreshToken> userRefreshTokenService,
+                                     IGenericRepo<IdentityUser> userService, 
+                                     IUnitOfWork unitOfWork)
         {
             _userManager = userManager;
-            this.unitOfWork = unitOfWork;
+            _context = context;
+            _userRefreshTokenService = userRefreshTokenService;
+            _userService = userService;
+            _unitOfWork = unitOfWork;
         }
 
-        public async Task<Response<UserDto>> CreateUserAsync(CreateUserDto model)
+
+        public async Task<UserRefreshToken> AddUserRefreshTokens(UserRefreshToken userRefreshToken)
         {
-            var user = new IdentityUser() { Email = model.Email , UserName = model.UserName };
-            var result = await _userManager.CreateAsync(user , model.Password);
-            
+            var token = await _userRefreshTokenService.AddAsync(userRefreshToken);
+            return token;
+        }
+
+        public async void CreateUser(UserDto user)
+        {
+            IdentityUser newUser = new IdentityUser();
+
+            newUser.UserName = user.Name.ToLower();
+            newUser.Email = "fd@gmail.com";
+            newUser.PasswordHash = user.Password;
+
+            await _userService.AddAsync(newUser);
+
+            SaveCommit();
+        }
+
+        public async Task<Response<NoData>> CreateUserAsync(UserDto user)
+        {
+            IdentityUser newUser = new IdentityUser();
+
+            newUser.UserName = user.Name.ToLower();
+            newUser.Email = user.Email;
+
+            var result = await _userManager.CreateAsync(newUser, user.Password);
+
             if (!result.Succeeded)
             {
-                var errors = result.Errors.Select(x => x.Description).ToList();
-                return Response<UserDto>.Fail(new ErrorDto(errors, true), 400);
+                List<string> errors = new List<string>();
+                foreach (var error in result.Errors)
+                    errors.Add(error.Description);
+                var errorsString = errors.Aggregate((a, b) => a + "\n" + b);
+                return new Response<NoData>() { Data = null, Error = errorsString, StatusCode = 400 };
+
             }
+            return new Response<NoData>() { Data = null , Error = "" , StatusCode = 200};
+        }
 
-            unitOfWork.Commit();
+        public void DeleteUserRefreshTokens(string username, string refreshToken)
+        {
+            var item = _userRefreshTokenService.Where(x => x.UserName == username && x.RefreshToken == refreshToken).FirstOrDefault(); 
+            if (item != null)
+                _userRefreshTokenService.Remove(item);
+        }
 
-            return Response<UserDto>.Success(new UserDto() { Id = user.Id , Email = user.Email , UserName= user.UserName } , 200);
+        public UserRefreshToken GetSavedRefreshTokens(string username, string refreshtoken)
+        {
+            return _userRefreshTokenService
+                     .Where(x => x.UserName == username && x.RefreshToken == refreshtoken && x.IsActive == true)
+                     .FirstOrDefault();  
 
         }
 
-        public async Task<Response<UserDto>> GetUserByNameAsync(string userName)
+        public async Task<List<UserDto>> GetUsers()
         {
-            var user = await _userManager.FindByNameAsync(userName);
+            var users = await _userService.GetAllAsync();
 
-            if (user == null)
-                return Response<UserDto>.Fail("UserName not found", 404, true);
+            var usersDto = users.Select(x => new UserDto() 
+            { 
+                Name = x.UserName, 
+                Email = x.Email, 
+                Password = x.PasswordHash} 
+            ).ToList();
 
-            return Response<UserDto>.Success(new UserDto() { Id = user.Id, Email = user.Email, UserName = user.UserName }, 200);
+            return usersDto;
+        }
+
+        public async Task<bool> IsValidUserAsync(LoginDto loginDto)
+        {
+            var user = _userManager.Users.FirstOrDefault(o => o.UserName == loginDto.Name);
+            var result = await _userManager.CheckPasswordAsync(user, loginDto.Password);
+            return result;
+        }
+
+        public void SaveCommit()
+        {
+            _unitOfWork.Commit();
         }
     }
 }

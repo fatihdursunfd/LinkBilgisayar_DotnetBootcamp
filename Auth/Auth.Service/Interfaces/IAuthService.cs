@@ -1,4 +1,6 @@
-﻿using Auth.Service.Dtos;
+﻿using Auth.Data.Model;
+using Auth.Service.Dtos;
+using Auth.Service.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +11,8 @@ namespace Auth.Service.Interfaces
 {
     public interface IAuthService
     {
-        Task<Response<TokenDto>> CreateTokenAsync(LoginDto loginDto);
+        Task<Response<Token>> AuthenticateAsync(LoginDto user);
 
-        Task<Response<TokenDto>> CreateTokenByRefreshToken(string refreshToken);
-
-        Task<Response<NoDataDto>> RemoveRefreshToken(string refreshToken);
-
-        Response<ClientTokenDto> CreateTokenByClient(ClientLoginDto clientLoginDto);
+        Task<Response<Token>> Refresh(Token token);
     }
 }

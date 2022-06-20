@@ -1,42 +1,67 @@
-﻿using Auth.Service.Dtos;
+﻿using Auth.Data.Model;
+using Auth.Service.Dtos;
 using Auth.Service.Interfaces;
+using Auth.Service.Model;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Auth.API.Controllers
+namespace JWT.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : Controller
     {
         private readonly IUserService userService;
 
-        public UserController(IUserService userService)
+        private readonly IAuthService authService;
+
+        public UserController( IUserService userService, IAuthService authService)
         {
             this.userService = userService;
+            this.authService = authService;
         }
-
 
         [HttpGet]
-        public async Task<IActionResult> GetById()
+        public async Task<IActionResult> GetUsers()
         {
-            var id = HttpContext.User.Identity.IsAuthenticated;
-
-            return Ok();
-
-            //var result = await userService.GetUserByNameAsync(HttpContext.User.Identity.Name);
-            //return Ok(result);
+            var users = await userService.GetUsers();
+            return Ok(users);
         }
 
+
+        [AllowAnonymous]
         [HttpPost]
-        public async Task<IActionResult> Create(CreateUserDto createUserDto)
+        [Route("authenticate")]
+        public async Task<IActionResult> AuthenticateAsync(LoginDto user)
         {
-            var result = await userService.CreateUserAsync(createUserDto);
-            return Ok(result);
+            var response = await authService.AuthenticateAsync(user);
+            return Ok(response);
         }
 
+
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("refresh")]
+        public async Task<IActionResult> Refresh(Token token)
+        {
+            var response = await authService.Refresh(token);
+            return Ok(response);
+        }
+
+
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("create")]
+        public async Task<IActionResult> CreateUser(UserDto user)
+        {
+            var response = await userService.CreateUserAsync(user);
+            return Ok(response);
+        }
 
     }
 }

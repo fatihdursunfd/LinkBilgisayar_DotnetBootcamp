@@ -15,7 +15,7 @@ namespace Auth.Data.Interfaces
 
         IQueryable<T> Where(Expression<Func<T, bool>> predicate);
 
-        Task AddAsync(T entity);
+        Task<T> AddAsync(T entity);
 
         void Remove(T entity);
 
