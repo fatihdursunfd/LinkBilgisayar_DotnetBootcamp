@@ -5,4 +5,4 @@
  Quartz kütüpjanesi kullanılarak haftalık ve aylık raporlar göndermek için kullanılan yine bir bakground service olan Report katmanı vardır.<br/>
  
  Proje çalıştırıldığında oluşturulan haftalık ve aylık raporlar excel olarak Attechments dosyasına eklenmiştir.<br/>
- Attechments dosyasında ayrıca gönderilen bir mail öreneği, watermark eklenmiş bir resim ve veritabanının backup'ı vardır
+ Attechments dosyasında ayrıca gönderilen bir mail örneği, watermark eklenmiş bir resim ve veritabanının backup'ı vardır
