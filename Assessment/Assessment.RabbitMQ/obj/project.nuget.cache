@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "e/PuMC9dZD2vsa83tbKCjlozkT2lpY/X4ncIUdRy5XiGmOcFv+g+OMZ83xcQJbsuFPXSAuo/5FMT6O0aX4ZNvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fatih\\OneDrive\\Masaüstü\\LB-Bootcamp\\Assessment\\Assessment.RabbitMQ\\Assessment.RabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

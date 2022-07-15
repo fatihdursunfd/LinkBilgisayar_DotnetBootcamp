@@ -1,0 +1,12 @@
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\bin\Debug\net6.0\Assessment.Core.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\bin\Debug\net6.0\Assessment.Core.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\bin\Debug\net6.0\Assessment.Core.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\refint\Assessment.Core.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\Assessment.Core.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.Core\obj\Debug\net6.0\ref\Assessment.Core.dll

@@ -1,0 +1,12 @@
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\bin\Debug\net6.0\Assessment.RabbitMQ.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\bin\Debug\net6.0\Assessment.RabbitMQ.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\bin\Debug\net6.0\Assessment.RabbitMQ.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\refint\Assessment.RabbitMQ.dll
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\Assessment.RabbitMQ.pdb
+C:\Users\fatih\OneDrive\Masaüstü\LB-Bootcamp\Assessment\Assessment.RabbitMQ\obj\Debug\net6.0\ref\Assessment.RabbitMQ.dll
